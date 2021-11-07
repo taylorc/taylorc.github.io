@@ -394,17 +394,23 @@ a.sidebar-nav-item:focus {
 
 /* Custom theme */
 /*https://www.color-hex.com/color/c505ff*/
-.theme-base-0e .sidebar {
+.theme-base-0g .sidebar {
   background-color: #000F;
   color: #ffc505
 }
 
-.theme-base-0e .sidebar a {
+.theme-base-0g .sidebar a {
   color: #c505ff
 }
-.theme-base-0e .content a,
-.theme-base-0e .related-posts li a:hover {
+.theme-base-0g .content a,
+.theme-base-0g .related-posts li a:hover {
   color: #c505ff;
+}
+
+.theme-base-0g .page-title,
+.theme-base-0g .post-title,
+.theme-base-0g .post-title {
+  color: #05ffc5;
 }
 
 /* Thin Scrollbar */
