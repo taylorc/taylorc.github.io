@@ -3,10 +3,6 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  
-</p>
-
 ## About Craig Taylor
 
 Some relevant information about the author of this site:
