@@ -396,11 +396,11 @@ a.sidebar-nav-item:focus {
 /*https://www.color-hex.com/color/c505ff*/
 .theme-base-0e .sidebar {
   background-color: #000F;
-  color: #c505ff
+  color: #ffc505
 }
 .theme-base-0e .content a,
 .theme-base-0e .related-posts li a:hover {
-  color: #ffc505;
+  color: #c505ff;
 }
 
 /* Thin Scrollbar */
