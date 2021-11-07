@@ -398,6 +398,10 @@ a.sidebar-nav-item:focus {
   background-color: #000F;
   color: #ffc505
 }
+
+.theme-base-0e .sidebar a {
+  color: #c505ff
+}
 .theme-base-0e .content a,
 .theme-base-0e .related-posts li a:hover {
   color: #c505ff;
