@@ -4,15 +4,16 @@ title: About
 ---
 
 <p class="message">
-  Hi there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+  
 </p>
 
-## About BlackDoc Theme
+## About Craig Taylor
 
-Some relevant information about this project:
+Some relevant information about the author of this site:
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Theme based on [Poole](http://getpoole.com), the Jekyll butler, and the [Hyde](http://hyde.getpoole.com) theme
-* Ideal for sites requiring master-detail layout such as documentation, cheatsheets, lyrics, notes, etc.
-* Need a beautiful color scheme for black background? Then you will love BlackDoc theme.
+* Born in Middleton, England and emigrate to Australia in 1983.
+* Current studying a Masters of Business Administration (MBA) at the Unversity of Southern Queensland
+* Has been HSD's Chief Technology Officer for over 2 years. 
+* Has spent over 20 years in the Technology industry working for finance (superannuation and accounting firms), Non for profit and Independent Software Vendors (ISVs).
+
 
