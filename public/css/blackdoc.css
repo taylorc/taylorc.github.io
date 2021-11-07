@@ -32,8 +32,8 @@ html {
 }
 
 body {
-  color: #848482;
-  background-color: #000000;
+  color: #C505FF;
+  background-color: #FFFFFF;
 }
 
 h1,
@@ -60,19 +60,19 @@ h6 a {
 }
 
 a {
-  color: #ffeb99;
+  color: #FFC505;
   transition: color ease 0.3s;
 }
 
 a:hover {
-  color: #caad00;
+  color: #05FFC5;
 }
 
 .btn {
   display: inline-block;
   padding: .25rem 1rem;
   font-family: "PT Sans", sans-serif;
-  color: #ebcb8b;
+  color: #FFC505;
   border: .1rem solid #32343c;
   border-radius: .1rem;
 }
@@ -80,8 +80,8 @@ a:hover {
 .btn:hover,
 .btn:focus {
   color: #26282d;
-  background-color: #ebcb8b;
-  border-color: #ebcb8b;
+  background-color: #FFC505;
+  border-color: #FFC505;
 }
 
 strong,
