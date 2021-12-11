@@ -1,26 +1,21 @@
 const { getPosts, generatePaginationPages } = require('./theme/serverUtils')
 
 async function config() {
-    const pageSize = 2
-    await generatePaginationPages(pageSize)
+    const pageSize = 25
     return {
-        title: 'vitepress-blog',
+        title: 'Craig Taylor',
         base:'/',
         description: 'vitepress,blog,blog-theme',
         themeConfig: {
             posts: await getPosts(),
             pageSize: pageSize,
-            website: 'https://github.com/airene/vitepress-blog-pure', //copyright link
-            comment: {
-                repo: 'airene/vitepress-blog-pure',
-                themes: 'github-light',
-                issueTerm: 'pathname'
-            },
+            website: 'https://www.craigtaylor.me/', //copyright link
             nav: [
                 { text: 'Home', link: '/' },
-                { text: 'Archives', link: '/pages/archives' },
-                { text: 'Tags', link: '/pages/tags' },
-                { text: 'About', link: '/pages/about' }
+                { text: 'Blog', link: '/blog/' },
+                { text: 'Archives', link: '/blog/archives' },
+                { text: 'Tags', link: '/blog/tags' },
+                { text: 'About', link: '/about' }
                 // { text: 'Airene', link: 'http://airene.net' }  -- External link test
             ]
         },

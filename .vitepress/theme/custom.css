@@ -1,4 +1,9 @@
 /*keep the change things*/
+/*#caad00
+
+https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css
+https://themes.getbootstrap.com/preview/?theme_id=14341
+*/
 :root {
     --c-divider-light: #e2e8f0;
     --c-divider-dark: rgba(84, 84, 88, 0.48);
@@ -6,7 +11,7 @@
     --c-brand: #1d4ed8; /*  don't forget change the --tag-bg for tags */
     --c-brand-light: #1d4ed8;
 
-    --font-family-base: PingFangSC-regular, 'Microsoft Yahei', sans-serif;
+    /* --font-family-base: PingFangSC-regular, 'Microsoft Yahei', sans-serif; */
     --font-family-mono: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 
     --header-height: 3.6rem;
@@ -20,11 +25,35 @@
     --tag-bg: #eff6ff;
 }
 
-/*theme reset*/
+.hp-header{
+    background-color: #c505ff;
+    height: 30rem;
+    color: #fff;
 
-.list-li {
-background-color: #64748b;
 }
+
+
+.h1centre {
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        margin-top: 12em;
+        /* You need to define an explicit height! */
+        height: 100%;
+}
+
+.flex-container {
+    display: flex;           /* establish flex container */
+    flex-direction: column;  /* make main axis vertical */
+    justify-content: center; /* center items vertically, in this case */
+    align-items: center;     /* center items horizontally, in this case */
+    height: 300px;
+    width: 100vmax;
+}
+
+/*theme reset*/
 a:link {
     text-decoration: none;
 }
@@ -39,7 +68,12 @@ h3 {
     font-size: 1rem;
 }
 .container {
-    max-width: 58rem !important;
+    display: flex;           /* establish flex container */
+    flex-direction: column;  /* make main axis vertical */
+    justify-content: center; /* center items vertically, in this case */
+    align-items: center;     /* center items horizontally, in this case */
+    height: 300px;
+    width:100%;
 }
 /* pc + mobile start */
 .sidebar-links {
