@@ -6,6 +6,7 @@ sidebar: false
 ---
 <section class="hp-header hp-header">
       <div class="flex-container">
-      	    <h1 class="h1centre">Powerful Documentation and Help Center Bootstrap Template.</h1>
+      	    <p class="maintextcentre">I have a passion for forging authentic relationships and using technology to help organisations reach their full potential. </p>
+			  <p class="secondarytextcentre"> I believe that open and honest conversation will break down silos.</p>
       	</div>
-    </section>
+</section>

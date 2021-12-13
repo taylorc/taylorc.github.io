@@ -3,6 +3,7 @@
 
 https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css
 https://themes.getbootstrap.com/preview/?theme_id=14341
+https://themes.getbootstrap.com/preview/?theme_id=5348
 */
 :root {
     --c-divider-light: #e2e8f0;
@@ -33,15 +34,30 @@ https://themes.getbootstrap.com/preview/?theme_id=14341
 }
 
 
-.h1centre {
+.maintextcentre {
+    font-size: larger;
+    font-weight: 900;
     display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        width: 100%;
-        margin-top: 12em;
-        /* You need to define an explicit height! */
-        height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 18em;
+    /* You need to define an explicit height! */
+    height: 50%;
+}
+
+.secondarytextcentre {
+    font-size: large;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 0.3em;
+    /* You need to define an explicit height! */
+    height: 50%;
 }
 
 .flex-container {
