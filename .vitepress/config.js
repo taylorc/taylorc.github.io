@@ -3,9 +3,10 @@ const { getPosts, generatePaginationPages } = require('./theme/serverUtils')
 async function config() {
     const pageSize = 25
     return {
+        lang: 'en-AU',
         title: 'Craig Taylor',
         base:'/',
-        description: 'vitepress,blog,blog-theme',
+        description: 'blog, technology, business',
         themeConfig: {
             posts: await getPosts(),
             pageSize: pageSize,

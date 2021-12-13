@@ -47,3 +47,11 @@ export function useYearSort(post: Post[]) {
     }
     return data
 }
+
+export function formatDateWithMonthAndYearOnly(date: Date){
+    const month = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+    const d = new Date(date);
+
+    return month[d.getMonth()].slice(0,3) + " " + d.getFullYear();
+
+}

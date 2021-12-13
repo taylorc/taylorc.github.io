@@ -9,7 +9,7 @@
                     <div class="title-o"></div>
                     {{ article.frontMatter.title }}
                 </div>
-                <div class="date">{{ article.frontMatter.date.slice(5) }}</div>
+                <div class="date blog-list-time">{{ formatDateWithMonthAndYearOnly(article.frontMatter.date) }}</div>
             </a>
         </div>
     </div>
@@ -18,20 +18,33 @@
 <script lang="ts" setup>
 import { useData,withBase } from 'vitepress'
 import { computed } from 'vue'
-import { useYearSort } from '../functions'
+import { useYearSort, formatDateWithMonthAndYearOnly } from '../functions'
 
 const { theme } = useData()
 const data = computed(() => useYearSort(theme.value.posts))
+
 </script>
 
 <style scoped>
 .year {
     padding: 16px 0 8px 0;
     font-size: 1.4rem;
-    font-weight: 600;
+    font-weight: 700;
+    color: #8f6d00
+}
+
+.blog-list-time{
+    width: 100px;
+    padding: 10px;
+    border: 2px solid #6D008F;
+    background-color: #6D008F;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    color: #F7FFF5;
 }
 
 .title {
     margin-right: 0.75em;
+    color: #6D008F;
 }
 </style>
