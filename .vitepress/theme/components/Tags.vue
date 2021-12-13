@@ -10,13 +10,13 @@
             <div class="title-o"></div>
             {{ article.frontMatter.title }}
         </div>
-        <div class="date">{{ article.frontMatter.date }}</div>
+        <div class="date blog-list-time">{{ formatDateWithMonthAndYearOnly(article.frontMatter.date) }}</div>
     </a>
 </template>
 <script lang="ts" setup>
 import { computed, ref } from 'vue'
 import { useData,withBase } from 'vitepress'
-import { initTags } from '../functions'
+import { initTags, formatDateWithMonthAndYearOnly } from '../functions'
 
 const { theme } = useData()
 const data = computed(() => initTags(theme.value.posts))
@@ -31,6 +31,7 @@ const toggleTag = (tag: string) => {
     margin-top: 14px;
     display: flex;
     flex-wrap: wrap;
+
 }
 .tag {
     display: inline-block;
@@ -38,18 +39,35 @@ const toggleTag = (tag: string) => {
     margin: 6px 8px;
     font-size: 0.875rem;
     line-height: 25px;
-    background-color: var(--tag-bg);
     transition: 0.4s;
     border-radius: 3px;
-    color: var(--c-brand);
+     border: 2px solid #6D008F;
+    background-color: #6D008F;
     cursor: pointer;
+    color: #F7FFF5;
 }
-.tag strong {color:#222}
+.tag strong {color:#F7FFF5}
 .header {
     font-size: 2rem;
     font-weight: 600;
     margin: 1rem 0;
     text-align: center;
+    color:#8f6d00;
+}
+
+.blog-list-time{
+    width: 100px;
+    padding: 10px;
+    border: 2px solid #6D008F;
+    background-color: #6D008F;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    color: #F7FFF5;
+}
+
+.title {
+    margin-right: 0.75em;
+    color: #6D008F;
 }
 
 @media screen and (max-width: 700px) {
