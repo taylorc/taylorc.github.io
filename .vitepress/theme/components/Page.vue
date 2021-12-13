@@ -2,11 +2,13 @@
     <div v-for="(article, index) in posts" :key="index" class="list">
         <div class="list-header">
             <div class="list-li">
-                <a :href="withBase(article.regularPath)"> {{ article.frontMatter.title }}</a>
+                <a class="blog-title" :href="withBase(article.regularPath)"> {{ article.frontMatter.title }}</a>
             </div>
-            <time datetime="2020-10-25" class="date">
+            <div class="blog-list-time">
+                <time datetime="2020-10-25" class="date">
                 {{ article.frontMatter.date }}
             </time>
+            </div>
         </div>
         <p class="describe">
             {{ article.frontMatter.description }}
@@ -35,6 +37,23 @@ const props = defineProps({
 </script>
 
 <style scoped>
+.blog-list-time{
+    width: 115px;
+    padding: 10px;
+    border: 2px solid #6D008F;
+    background-color: #6D008F;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+}
+
+time{
+        color: #F7FFF5;
+}
+
+.list-li a {
+     margin-right:2em !important;
+     color: #6D008F;
+}
 .list {
     border-bottom: 1px dashed var(--c-divider-light);
     padding: 1rem 0 0 0;
@@ -45,18 +64,18 @@ const props = defineProps({
     justify-content: space-between;
 }
 .list-li {
-    font-size: 1.25rem;
+    font-size: 2.25rem;
     font-weight: 400;
     margin: 0.1rem 0;
 }
 
 .describe {
-    font-size: 0.875rem;
+    font-size: 0.975rem;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
     overflow: hidden;
-    color: #71717a;
+    color: #8f6d00;
     margin: 0.625rem 0 1rem;
 }
 .pagination {

@@ -30,4 +30,8 @@ const data = computed(() => useYearSort(theme.value.posts))
     font-size: 1.4rem;
     font-weight: 600;
 }
+
+.title {
+    margin-right: 0.75em;
+}
 </style>

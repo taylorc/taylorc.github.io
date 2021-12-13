@@ -1,5 +1,5 @@
 /*keep the change things*/
-/*#caad00
+/*https://www.colorhexa.com/8d00b8
 
 https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css
 https://themes.getbootstrap.com/preview/?theme_id=14341
@@ -21,18 +21,18 @@ https://themes.getbootstrap.com/preview/?theme_id=5348
     /* pure theme color */
     --li-dot-color: #737373;
     --title-color: #334155;
-    --date-color: #64748b;
+    --date-color: #004D14;
     --date-font-family: Georgia, sans-serif;
     --tag-bg: #eff6ff;
+
 }
 
 .hp-header{
-    background-color: #c505ff;
+    background-color: #6D008F;
     height: 30rem;
-    color: #fff;
+    color: #F7FFF5;
 
 }
-
 
 .maintextcentre {
     font-size: larger;
