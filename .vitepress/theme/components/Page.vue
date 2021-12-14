@@ -89,13 +89,13 @@ time{
     height: 28px;
     text-align: center;
     line-height: 28px;
-    border: 1px var(--c-divider-light) solid;
+    border: 1px #6D008F solid;
     border-right: none;
 }
 .link.active {
-    background: var(--c-brand);
-    color: #fff;
-    border: 1px solid var(--c-brand) !important;
+    background: #6D008F;
+    color: #F7FFF5;
+    border: 1px solid #6D008F !important;
 }
 .link:first-child {
     border-bottom-left-radius: 3px;
@@ -104,7 +104,7 @@ time{
 .link:last-child {
     border-bottom-right-radius: 3px;
     border-top-right-radius: 3px;
-    border-right: 1px var(--c-divider-light) solid;
+    border-right: 1px #6D008F solid;
 }
 
 @media screen and (max-width: 720px) {
