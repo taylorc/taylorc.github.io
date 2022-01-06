@@ -40,8 +40,8 @@ const props = defineProps({
 .blog-list-time{
     width: 115px;
     padding: 10px;
-    border: 2px solid #6D008F;
-    background-color: #6D008F;
+    border: 2px solid var(--title-color);
+    background-color: var(--title-color);
     border-radius: 15px;
     -moz-border-radius: 15px;
 }
@@ -52,7 +52,7 @@ time{
 
 .list-li a {
      margin-right:2em !important;
-     color: #6D008F;
+     color: var(--title-color);
 }
 .list {
     border-bottom: 1px dashed var(--c-divider-light);
@@ -75,7 +75,7 @@ time{
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
     overflow: hidden;
-    color: #8f6d00;
+    color: var(--c-text-light);
     margin: 0.625rem 0 1rem;
 }
 .pagination {
@@ -89,13 +89,13 @@ time{
     height: 28px;
     text-align: center;
     line-height: 28px;
-    border: 1px #6D008F solid;
+    border: 1px var(--title-color) solid;
     border-right: none;
 }
 .link.active {
-    background: #6D008F;
+    background: var(--title-color);
     color: #F7FFF5;
-    border: 1px solid #6D008F !important;
+    border: 1px solid var(--title-color) !important;
 }
 .link:first-child {
     border-bottom-left-radius: 3px;
@@ -104,7 +104,7 @@ time{
 .link:last-child {
     border-bottom-right-radius: 3px;
     border-top-right-radius: 3px;
-    border-right: 1px #6D008F solid;
+    border-right: 1px var(--title-color) solid;
 }
 
 @media screen and (max-width: 720px) {

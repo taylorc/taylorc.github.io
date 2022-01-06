@@ -41,8 +41,8 @@ const toggleTag = (tag: string) => {
     line-height: 25px;
     transition: 0.4s;
     border-radius: 3px;
-     border: 2px solid #6D008F;
-    background-color: #6D008F;
+     border: 2px solid var(--title-color);
+    background-color: var(--title-color);
     cursor: pointer;
     color: #F7FFF5;
 }
@@ -52,14 +52,14 @@ const toggleTag = (tag: string) => {
     font-weight: 600;
     margin: 1rem 0;
     text-align: center;
-    color:#8f6d00;
+    color:var(--c-text-light);
 }
 
 .blog-list-time{
     width: 100px;
     padding: 10px;
-    border: 2px solid #6D008F;
-    background-color: #6D008F;
+    border: 2px solid var(--title-color);
+    background-color: var(--title-color);
     border-radius: 15px;
     -moz-border-radius: 15px;
     color: #F7FFF5;
@@ -67,7 +67,7 @@ const toggleTag = (tag: string) => {
 
 .title {
     margin-right: 0.75em;
-    color: #6D008F;
+    color: var(--title-color);
 }
 
 @media screen and (max-width: 700px) {

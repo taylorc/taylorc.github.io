@@ -30,14 +30,14 @@ const data = computed(() => useYearSort(theme.value.posts))
     padding: 16px 0 8px 0;
     font-size: 1.4rem;
     font-weight: 700;
-    color: #8f6d00
+    color: var(--c-text-light);
 }
 
 .blog-list-time{
     width: 100px;
     padding: 10px;
-    border: 2px solid #6D008F;
-    background-color: #6D008F;
+    border: 2px solid var(--title-color);
+    background-color: var(--title-color);
     border-radius: 15px;
     -moz-border-radius: 15px;
     color: #F7FFF5;
@@ -45,6 +45,6 @@ const data = computed(() => useYearSort(theme.value.posts))
 
 .title {
     margin-right: 0.75em;
-    color: #6D008F;
+    color: var(--title-color);
 }
 </style>

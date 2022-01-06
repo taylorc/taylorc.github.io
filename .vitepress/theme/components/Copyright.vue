@@ -16,7 +16,7 @@ const webTitle = site.value.title
 
 <style>
 .site-footer {
-    color: #999;
+    color: #000;
     height: 50px;
     text-align: center;
     font-size: 0.75rem;

@@ -9,8 +9,8 @@ https://themes.getbootstrap.com/preview/?theme_id=5348
     --c-divider-light: #e2e8f0;
     --c-divider-dark: rgba(84, 84, 88, 0.48);
 
-    --c-brand: #1d4ed8; /*  don't forget change the --tag-bg for tags */
-    --c-brand-light: #1d4ed8;
+    --c-brand: #004D14; /*  don't forget change the --tag-bg for tags */
+    --c-brand-light: #004D14;
 
     /* --font-family-base: PingFangSC-regular, 'Microsoft Yahei', sans-serif; */
     --font-family-mono: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
@@ -20,18 +20,23 @@ https://themes.getbootstrap.com/preview/?theme_id=5348
 
     /* pure theme color */
     --li-dot-color: #737373;
-    --title-color: #334155;
+    --title-color: #6D008F;
     --date-color: #004D14;
     --date-font-family: Georgia, sans-serif;
     --tag-bg: #eff6ff;
+    --c-text-light: #8f6d00;
 
 }
 
 .hp-header{
-    background-color: #6D008F;
+    background-color: var(--title-color);
     height: 30rem;
     color: #F7FFF5;
 
+}
+
+.tagline{
+    color: var(--title-color);
 }
 
 .maintextcentre {
