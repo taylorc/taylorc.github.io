@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /hero2.jpg
+# heroImage: /hero2.jpg
 heroText: I have a passion for forging authentic relationships and using technology to help organisations reach their full potential.
 tagline: I believe that open and honest conversation will break down silos.
 # actionText: Get Started →
