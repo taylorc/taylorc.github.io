@@ -1,9 +1,7 @@
 <template>
     <div class="site-footer">
-        MIT Licensed | Copyright © 2021 <a class="vitepress" :href="website">{{ webTitle }}</a
-        ><br />
-        Powered by
-        <a class="vitepress" target="_blank" href="//vitepress.vuejs.org/">VitePress</a>
+        Copyright © 2021 <a class="vitepress" :href="website">{{ webTitle }}</a
+        >
     </div>
 </template>
 <script lang="ts" setup>
@@ -21,6 +19,7 @@ const webTitle = site.value.title
     text-align: center;
     font-size: 0.75rem;
     width: 100vw;
+    margin-top: 60px;
 }
 .vitepress {
     color: #222;

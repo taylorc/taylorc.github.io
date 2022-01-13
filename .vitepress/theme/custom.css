@@ -28,6 +28,10 @@ https://themes.getbootstrap.com/preview/?theme_id=5348
 
 }
 
+body{
+    margin-top: 1050px;
+}
+
 .hp-header{
     background-color: var(--title-color);
     height: 30rem;
