@@ -38,7 +38,7 @@ const props = defineProps({
 
 <style scoped>
 .blog-list-time{
-    width: 115px;
+    width: 175px;
     padding: 10px;
     border: 2px solid var(--title-color);
     background-color: var(--title-color);

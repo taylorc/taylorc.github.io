@@ -28,9 +28,7 @@ https://themes.getbootstrap.com/preview/?theme_id=5348
 
 }
 
-body{
-    margin-top: 1050px;
-}
+
 
 .hp-header{
     background-color: var(--title-color);
@@ -97,7 +95,7 @@ h3 {
     flex-direction: column;  /* make main axis vertical */
     justify-content: center; /* center items vertically, in this case */
     align-items: center;     /* center items horizontally, in this case */
-    height: 300px;
+    /* height: 300px; */
     width:100%;
 }
 /* pc + mobile start */
