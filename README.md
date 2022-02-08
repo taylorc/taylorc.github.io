@@ -1,4 +1,5 @@
 # deployment
+https://dev.to/burhanahmeed/deploying-vitepress-to-github-pages-28po
 
 https://vitepress.vuejs.org/guide/deploy.html#building-the-docs
 
