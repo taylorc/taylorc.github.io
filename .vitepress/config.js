@@ -20,6 +20,18 @@ async function config() {
                 // { text: 'Airene', link: 'http://airene.net' }  -- External link test
             ]
         },
+        head: 
+        [['script', {
+            async: true,
+            src: 'https://www.googletagmanager.com/gtag/js?id=G-JG72P8KX86'
+        }],
+        ['script', {}, `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+        
+            gtag('config', 'G-JG72P8KX86');
+        `]],
         srcExclude: ['README.md'] // exclude the README.md , needn't to compiler
         /*
         vite: {
