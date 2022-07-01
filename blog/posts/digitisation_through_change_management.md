@@ -9,6 +9,7 @@ description: How do you set yourself up for success?
 page: true
 ---
 
+# Welcome Back, Kotter or Digitisation through Change Management
 ## Digitisation and Success
 In this pandemic cycle, the Digitisation of the business is more important than ever to thriving as a business. However, evidence suggests that there are still the same stumbling blocks now ([Digital transformation: 5 reasons why it still fails](https://enterprisersproject.com/article/2020/8/digital-transformations-why-fail)) and in the past ([Why digital transformations fail: 3 exhausting reasons](https://enterprisersproject.com/article/2019/8/why-digital-transformations-fail-3-reasons?page=0%2C0)). Broadly speaking, the failings fall into the following categories:
 
@@ -60,9 +61,6 @@ Follow these eight rules to take an intentional approach to digitalisation. Kott
 Another change management model that may help is the ADKAR (https://www.prosci.com/methodology/adkar) model.
 
 Please reach out to HSD to discuss the people side of Digitisation. HSD can also help you generate short term wins with DCMA. By extending the Dynamics 365 case management system, DCMA takes your applications, complaints, and inquiries processes and turns them into dedicated workflows, increasing your organisational productivity.
-
-
-
 
 <!-- <Comment /> -->
 
