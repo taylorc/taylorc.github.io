@@ -3,6 +3,8 @@ https://dev.to/burhanahmeed/deploying-~vitepress-to-github-pages-28po
 
 https://vitepress.vuejs.org/guide/deploy.html#building-the-docs
 
+git push -f git@github.com:taylorc/taylorc.github.io.git main:gh-pages
+
 # BlackDoc
 
 ![Jekyll version](https://img.shields.io/badge/Jekyll-3.x-brightgreen.svg?style=flat-square)
