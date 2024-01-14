@@ -1,5 +1,5 @@
 ---
-date: 2024-01-01
+date: 2024-01-13
 title: Pitfalls of Teams
 tags:
 - culture
